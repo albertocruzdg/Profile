@@ -1,117 +1,148 @@
 @import 'normalize.styl'
-
-a
-	color #22BCE0
+@import 'fonts.styl'
 
 body
-	background #EEEEEE
-	font-family 'Open Sans', sans-serif
+	font-family: 'Open Sans', sans-serif;
+
+.Avatar
+	text-align center
+
+.Avatar-image
+	width 240px
+
+.Contact-icon
+	background #b7b7b7
+	border 3px solid #b7b7b7
+	border-radius 15px 0 0 15px
+	color #fff
+	font-size 1.5rem
+	padding 12px 2px 14px 10px
+
+.Contact-item
+	list-style none
+	margin 40px 0px
+
+.Contact-link
+	border 3px solid #b7b7b7
+	border-radius 0 15px 15px 0px
+	color #b7b7b7
+	font-size 1.2rem
+	padding 14px 10px 10px 3px
+	text-decoration none
+
+.Contact-list
+	padding 0px
+	font-size 0px
+
+.Footer
+	border-top 1px solid #b7b7b7
+	margin 20px
+	padding 5px
+
+.Footer-text
+	color #b7b7b7
+
+.green-text
+	color rgb(26,188,156)
 
 .Header
-	background #EDE792
 	text-align center
-	margin-top 3em
-	overflow hidden
+	padding 240px 0px
 
-.Header-image
-	border .2em solid #533706
-	border-radius 50%
-	margin-top 50px
-	width 120px
+.Header-description
+	font-size 2em
 
-.Header-imageContainer
-	margin 1em
+.Header-title
+	font-size 5em
+	margin-bottom .1675em
 
-.MainMenu
-	background rgba(238,238,238,.7)
-	border-bottom .3em solid rgba(83,55,6,0.5)
+.Introduction
+	color #b7b7b7
+	text-align center
+
+.justify
+	text-align justify
+
+.Nav
+	// background: rgba(238,238,238,0.7);
+	background: rgba(0,0,0,0.7);
 	left 0
-	margin 0em .3em
-	padding 1em 0em .5em 0em
 	position fixed
 	right 0
 	text-align center
 	top 0
+	font-size 0px
 
-.MainMenu-list
+.Nav-item
+	display inline-block
+	list-style none
+	transition .3s
+	&:hover
+		background: rgba(0,0,0,1);
+
+.Nav-link
+	color white
+	text-decoration none
+	font-size 1rem
+	padding 16px 10px
+	display inline-block
+	
+.Nav-list
 	margin 0px
 	padding 0px
-	
-.MainMenu-item
-	display inline-block
 
-.MainMenu-link
-	padding .5em
-	text-decoration none
-	transition .3s
-	color black
-	&:hover
-		background rgba(83,55,6,0.5)
-		color white
+.Section
+	padding 50px 1% 1% 50px
+
+.Section-title
+	text-align center
+	font-size 3em
+	margin-bottom 0px
 
 .Skill-list
-	border 3px solid #009AB9
-	padding 10px 5px
-	overflow hidden
+	border 5px solid rgb(26,188,156)
+	padding 10px
+	font-size 0px
 
 .Skill-item
+	background rgba(26,188,156,1)
+	color white
+	padding 5px 10px 5px 20px
+	border-radius 8px
+	transition .3s
 	display inline-block
-	margin 3px 1px
-	padding 4px 5px 4px 14px
-	background #22BCE0
-	border-radius 5px
-	transition .3s
-	color white
+	list-style none
+	font-size 1rem
+	margin 2px
 	&:hover
-		background #44DEFF
+		padding 5px 20px 5px 10px
+		background rgba(26,188,156,.7)
 		color black
-		padding 4px 14px 4px 5px
 
-.Footer
-	overflow hidden
-	text-align center
-	background #EDE792
+.Work-date
+	text-align right
+	margin .5em 0px
+	font-size 1.8em
 
-.Footer-link
-	background #22BCE0
-	border-radius 10px
-	color white
-	padding 3px 10px
-	text-decoration none
-	transition .3s
-	&:hover
-		color #22BCE0
-		background white
-
-.Position-item
-	background #EADD14
-	/*margin 1em*/
-	overflow hidden
-	padding 5px
-	&:nth-child(odd)
-		background #EDE792
-
-.Position-section
-	margin 1em 0px
-
-.About-description
+.Work-description
 	text-align justify
 
-@media screen and (min-width: 600px)
-	.Header-image
-		width 240px
+.Work-item
+	border-top 1px solid #d4d4d4
+	margin 0px 25px
+	text-align right
+	&:nth-last-child(1)
+		border-bottom 1px solid #d4d4d4
 
-	.Header
-		padding 0 0 1.5em 0
-	.Skill-section,.Position-section
-		float left
-		width 48%
-		margin 1%
-	.About-section
-		margin 1%
-	.div-columns
-		overflow hidden
-		margin 0px 0px .83em 0px
+.Work-title
+	font-weight normal
+	font-size .9em
+	margin 5px 0px
 
-	body
-		font-size 18px
+.Work-company
+	font-size 1.2em
+	margin 5px 0px
+
+.Work-until
+	&:before
+		content " - "

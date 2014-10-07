@@ -3,85 +3,140 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Alberto Cruz</title>
-	<meta name="description" content="Full stack web developer" />
-	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="static/css/style.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 	<script src="static/js/core.js"></script>
 </head>
 <body>
-	<nav class="MainMenu">
-		<ul class="MainMenu-list">
-			<li class="MainMenu-item"><a class="MainMenu-link" href="#about">About me</a></li>
-			<li class="MainMenu-item"><a class="MainMenu-link" href="#skills">Skills</a></li>
-			<li class="MainMenu-item"><a class="MainMenu-link" href="#positions">Positions</a></li>
-		</ul>
-	</nav>
 	<header class="Header">
-		<figure class="Header-imageContainer"><img class="Header-image" src="static/images/avatar.jpg" alt="Avatar"></figure>
-		<h1 class="Header-name">Alberto Cruz</h1>
-		<p class="Header-description">Full Stack Web Developer</p>
-	</header>
-	<section class="About-section">
-		<h2 id="about">About me</h2>
-		<div class="About-description">
-			<p class="About-paragraph">
-				I'm a full-stack web developer from Buenos Aires, Argentina. Intrested in technology and it's impact on the society. Technology is something really important in my life, I define myself as a Full-Time Techie.
-			</p>
-			<p class="About-paragraph">
-				I also like to know about new ways of solving problems, or new stuff that can be made by programming. I'm always studying.
-			</p>
-			<p class="About-paragraph">
-				I love to meet people and start or collaborate in projects. Getting involved is the only way to really learn.
-			</p>
-		</div>
-	</section>
-	<div class="div-columns">
-		<section class="Skill-section">
-			<h2 id="skills">Skills</h2>
-			<ul class="Skill-list">
-				<li class="Skill-item">Python</li>
-				<li class="Skill-item">Django</li>
-				<li class="Skill-item">Object Oriented Programming</li>
-				<li class="Skill-item">Design Patterns</li>
-				<li class="Skill-item">MVC</li>
-				<li class="Skill-item">SQL</li>
-				<li class="Skill-item">SQL Server</li>
-				<li class="Skill-item">C#</li>
-				<li class="Skill-item">.NET</li>
-				<li class="Skill-item">LINQ</li>
-				<li class="Skill-item">ASP.NET</li>
-				<li class="Skill-item">Visual Studio</li>
-				<li class="Skill-item">HTML5</li>
-				<li class="Skill-item">CSS3</li>
-				<li class="Skill-item">Box Model</li>
-				<li class="Skill-item">Responsive Design</li>
-				<li class="Skill-item">Stylus</li>
-				<li class="Skill-item">Frontend</li>
-				<li class="Skill-item">Backend</li>
-				<li class="Skill-item">Office</li>
+		<nav class="Nav">
+			<ul class="Nav-list">
+				<li class="Nav-item"><a class="Nav-link" href="#about">About me</a></li>
+				<li class="Nav-item"><a class="Nav-link" href="#skills">Skills</a></li>
+				<li class="Nav-item"><a class="Nav-link" href="#work">Work</a></li>
+				<li class="Nav-item"><a class="Nav-link" href="#education">Education</a></li>
+				<li class="Nav-item"><a class="Nav-link" href="#contact">Contact me</a></li>
 			</ul>
-		</section>
-		<section id="positions" class="Position-section">
-			<h2 id="studies">Positions</h2>
-			<article class="Position-item">
-				<h3>.NET Developer</h3>
-				<p>Prodtech, Jan 2012-Today</p>
-			</article>
-			<article class="Position-item">
-				<h3>Help Desk</h3>
-				<p>Prodtech, Jan 2012-Today</p>
-			</article>
-		</section>
-	</div>
+		</nav>
+		
+		<h1 class="Header-title">Alberto <span class="green-text">Cruz</span></h1>
+		<div class="Header-description">Full Stack Web Developer</div>
+	</header>
+	<section class="Section" id="about">
+		<h2 class="Section-title">ABOUT <span class="green-text">ME</span></h2>
+		<p class="Introduction">A BRIEF INTRODUCTION</p>
+		<p class="justify">
+			I'm a full-stack web developer from Buenos Aires, Argentina. Intrested in technology and it's impact on the society. Technology is something really important in my life, I define myself as a Full-Time Techie.
+		</p>
+		<p class="justify">
+			I also like to know about new ways of solving problems, or new stuff that can be made by programming. I'm always studying.
+		</p>
+		<p class="justify">
+			I love to meet people and start or collaborate in projects. Getting involved is the only way to really learn.
+		</p>
+		<figure class="Avatar">
+			<img class="Avatar-image" src="static/images/avatar.jpg" alt="" />
+		</figure>
+	</section>
+	<section class="Section" id="skills">
+		<h2 class="Section-title">MY <span class="green-text">SKILLS</span></h2>
+		<p class="Introduction">WHAT I'VE LEARNED AND LOVE</p>
+		<ul class="Skill-list">
+			<li class="Skill-item">Python</li>
+			<li class="Skill-item">Django</li>
+			<li class="Skill-item">Oriented Object Programming</li>
+			<li class="Skill-item">Design Pattterns</li>
+			<li class="Skill-item">MVC</li>
+			<li class="Skill-item">SQL</li>
+			<li class="Skill-item">SQL Server</li>
+			<li class="Skill-item">C#</li>
+			<li class="Skill-item">.NET</li>
+			<li class="Skill-item">LINQ</li>
+			<li class="Skill-item">ASP.NET</li>
+			<li class="Skill-item">Visual Studio</li>
+			<li class="Skill-item">HTML5</li>
+			<li class="Skill-item">CSS3</li>
+			<li class="Skill-item">Box Model</li>
+			<li class="Skill-item">Responsive Design</li>
+			<li class="Skill-item">Stylus</li>
+			<li class="Skill-item">Frontend</li>
+			<li class="Skill-item">Backend</li>
+		</ul>
+	</section>
+	<section class="Section" id="work">
+		<h2 class="Section-title">PREVIOUS <span class="green-text">WORK</span></h2>
+		<p class="Introduction">WHERE I'VE WORKED</p>
+		<article class="Work-item">
+			<div class="Work-info">
+				<p class="Work-date">
+					<span class="Work-since">2012</span>
+					<span class="green-text Work-until">TODAY</span>
+				</p>
+				<p class="Work-company green-text">PRODTECH</p>
+				<h3 class="Work-title">.NET DEVELOPER</h3>
+			</div>
+			<p class="Work-description">
+				We are developing applications oriented to logistics and supply chain in order to improve and optimize the process. The solutions are based in .NET Framework.
+			</p>
+		</article>
+		<article class="Work-item">
+			<div class="Work-info">
+				<p class="Work-date">
+					<span class="Work-since">2012</span>
+					<span class="green-text Work-until">TODAY</span>
+				</p>
+				<p class="Work-company green-text">PRODTECH</p>
+				<h3 class="Work-title">HELP DESK OPERATOR</h3>
+			</div>
+			<p class="Work-description">
+				Help the user to use the solutions. Recieve users doubts and requests through a custom CRM.
+			</p>
+		</article>
+	</section>
+	<section class="Section" id="education">
+		<h2 class="Section-title">MY <span class="green-text">EDUCATION</span></h2>
+		<p class="Introduction">WHERE I'VE STUDIED</p>
+		<article class="Work-item">
+			<div class="Work-info">
+				<p class="Work-date">
+					<span class="Work-since">2011</span>
+					<span class="green-text Work-until">2013</span>
+				</p>
+				<p class="Work-company green-text">Universidad Tecnológica Nacional</p>
+				<h3 class="Work-title">Técnico Superior en Programación</h3>
+			</div>
+			<p class="Work-description">
+				I have learned the basis of programming, and Object-Oriented Programming. I have also learned to program using HTML, ASP.NET, C#, .NET Framework and SQL Server, as an introduction to Web Development.
+			</p>
+		</article>
+	</section>
+	<section class="Section" id="contact">
+		<h2 class="Section-title">Contact <span class="green-text">me</span></h2>
+		<p class="Introduction">HAVE AN IDEA? LET'S MAKE IT HAPPEN!</p>
+		<!--<form action="email">
+			<input type="text" placeholder="Name">
+			<input type="text" placeholder="Email">
+			<textarea name="text" id="text" placeholder="Message" cols="30" rows="10"></textarea>
+		</form>-->
+		<ul class="Contact-list">
+			<li class="Contact-item">
+				<span class="icon-mail Contact-icon"></span>
+				<a class="Contact-link" href="#">cruz.alberto92@gmail.com</a>
+			</li>
+			<li class="Contact-item">
+				<span class="icon-github Contact-icon"></span>
+				<a href="#" class="Contact-link">Albertocruzdg</a>
+			</li>
+			<li class="Contact-item">
+				<span class="icon-twitter Contact-icon"></span>
+				<a href="#" class="
+				Contact-link">@albertocruzdg</a>
+			</li>
+		</ul>
+	</section>
 	<footer class="Footer">
-		<p>
-			Created by Alberto Cruz
-		</p>
-		<p>
-			Find me in <a class="Footer-link" href="http://github.com/albertocruzdg">Github</a>, <a class="Footer-link" href="http://ar.linkedin.com/in/albertocruzdg">Linkedin</a> and <a class="Footer-link" href="http://twitter.com/albertocruzdg">Twitter</a>.
-		</p>
+		<p class="Footer-text">Created by Alberto Cruz</p>
 	</footer>
 </body>
 </html>
